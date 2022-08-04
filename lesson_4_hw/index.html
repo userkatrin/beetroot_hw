@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles_main.css">
+    <title>Моє ДЗ до lesson_4</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="#about" class="link">Вступна частина</a>
+                </li>
+                <li>
+                    <a href="#skills" class="link">Що я вже вмію</a>
+                </li>
+                <li>
+                    <a href="#contacts" class="link">Мої контакти</a>
+                </li>
+                <li>
+                    <a href="#resume" class="link">Мої резюмехи</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <img src="./assets/img/flag_ua.png" alt="prapor_ua" width="1100" height="100">
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <h1 class="title">Доброго вечора, ми з України!</h1>
+        <!-- about -->
+        <section id="about" class="about">
+            <h2><mark>Вступна частина</mark></h2>
+            <h3>Привіт найкрутіша група №10 Front-End розбробників</h3>
+            <p class="text_p">Ця сторінка присвячена останнім домашкам. <br>Де ми вчилися семантиці, розрізняти такі теги, як <br>&ltsection&gt  та  &ltarticle&gt, та приміняти стилі <br>до нашого html документу.</p>
+        </section>
+        <!-- skills -->
+        <section id="skills" class="skills">
+            <h2><mark>Що я вже вмію</mark></h2>
+            <p class="text_p">Я навчилася добавляти на сторінку зображення,<br> відео та аудіо файли з контролюючою панелю. <br>Прив'язувати якорі. Робити посилання на інші сторінки. <br>І все це прикріплюю нижче :) </p>
+            <p class="text_p">Ось <a href="https://youtu.be/dEBVe8Ij7JU" target="_blank">ТУТ</a>
+                добавляю відео з YouTube.<br>Також нижче прикріплюю аудіо-файл, <br>відео-файл та картинку, огорнуті в &ltfigure&gt.</p>
+
+            <figure class="figure">
+                <figcaption>Послухай цю композицію:</figcaption>
+                <audio src="./assets/audio/test.m4a" controls autoplay muted>Ваш браузер не підтримує елемент <code>audio</code>.
+                </audio>
+            </figure>
+            
+            <figure class="figure">
+                <img src="./assets/img/autoportret.jpg" alt="user" width="250">
+                <figcaption>Автопортрет - Катруся</figcaption>
+             </figure>
+
+            <figure class="figure">
+                <video src="./assets/video/lucern.mp4" width="500" controls poster="./assets/img/lucern.jpg">Відео з Люцерну</video>
+                <figcaption>Забіг в Люцерні</figcaption>
+            </figure>
+        <!-- contacts -->
+        </section>
+        <section id="contacts" class="contacts"> 
+            <h2><mark>Мої контакти</mark></h2>
+            <p>
+                <a href="tel:+380952497956" class="link">Телефон</a>
+            </p>
+            <p>
+                <a href="mailto:katrin.shulha@gmail.com" class="link">Email</a>
+            </p>
+            <p>
+                <a href="https://www.instagram.com/stylist_katrin/" target="_blank" class="link">Instagram</a>
+            </p>
+            <p>
+                <a href="https://www.facebook.com/katrin.ua.it"  target="_blank" class="link">Facebook</a>
+            </p>          
+        </section>
+        <!-- resume -->
+        <section id="resume" class="resume">
+            <h2><mark>Мої резюмехи</mark></h2>
+                <p class="text_p">
+                    <a href="./resume_ukr.html" target="_blank">Тут</a> - моє резюме україньскою
+                </p>
+                <p class="text_p">
+                    <a href="./resume_eng.html" target="_blank">Тут</a> - моє резюме англійською
+                </p>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <h2>До зустрічі на слідуючій домашці :)</h2>
+    </footer> 
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+/* main styles */
+
+.main {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* sidebar styles */
+
+.sidebar {
+    background-color: #141414;
+    width: 370px;
+}
+
+.contact-type {
+    color: coral;
+    margin-right: 10px;
+}
+
+.contact-link,
+.link,
+.menu {
+    color: #565E6A;
+    margin-left: 5px;
+    list-style: none;
+}
+
+.social {
+    color: #565E6A;
+    margin-left: 10px;
+}
+
+.icon {
+    width: 15px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.sidebar-title {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    color: white;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.skills-text {
+    color: white;
+}
+
+.skills-item {
+    color: coral;
+}
+
+/* main styles */
+
+.main-content {
+    background-color: white;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding-bottom: 100px;
+    padding-right: 215px;
+    padding-top: 50px;
+    padding-left: 90px;
+}
+
+.menu {
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 0;
+    color: #565E6A;
+}
+
+/* about styles */
+
+.about {
+    padding-right: 80px;
+    margin-bottom: 30px;
+}
+
+.about-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 450px;
+}
+
+
+/* projects styles */
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.title {
+    color: #000000;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+/* works styles */
+
+.company,
+.university-title {
+    color: coral;
+    margin-bottom: 5px;
+}
+
+.company-name {
+    margin-bottom: 5px;
+}
+
+.time {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+/* education styles */
+
+.education {
+    padding-top: 20px;
+}
+
+.university-2 {
+    margin-top: 40px;
+}
+
+.speciality {
+    padding-top: 0;
+    margin-top: 0;
+}
+

@@ -1,0 +1,76 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    color: #3574d3;
+    list-style: none;
+    justify-content: space-around;
+}
+
+body {
+    margin: 10px;
+    display: block;
+    width: 1000px;
+    height: 100%;
+    text-align: center;
+}
+
+main {
+    padding: 0px 20px;
+}
+
+
+main section:nth-of-type(3) {
+    width: 150px;
+}
+
+.about, .skills,
+.contacts, .resume {
+    margin-bottom: 30px;
+}
+
+/* .contacts {
+    margin-left: 350px;
+    text-align: center;
+
+} */
+
+.link {
+    color: #3574d3;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #d30e0e;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+.figure {
+    margin-left: 0;
+}
+
+.text_p {
+    font-size: 20px;
+}
+
+.link-resume {
+    color: #0e3878;
+    padding: 5px auto;
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer {
+    margin-bottom: 50px;
+}
